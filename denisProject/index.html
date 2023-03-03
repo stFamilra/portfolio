@@ -4,7 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Denis Novik layout</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container">
+        <nav>
+          <ul class="header__menu">
+            <li class="active_menu"><a href="#header">Home</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <section class="home" id="home">
+          <ul class="header__description">
+            <li>Denis Novik</li>
+            <li>UX | UI designer 24 years old, Minsk</li>
+            <li>RU | ENG</li>
+          </ul>
+          <img src="img/face.jpg" alt="face" />
+        </section>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="about-me" id="about-me">
+        <div class="about-me__container container"></div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills__container container"></div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio__container container"></div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts__container container"></div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <footer class="footer_container container"></footer>
+    </footer>
+  </body>
 </html>
