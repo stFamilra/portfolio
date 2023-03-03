@@ -1,0 +1,53 @@
+@import url(fonts/Gilroy/bold/style.css);
+@import url(fonts/Gilroy/medium/style.css);
+
+body {
+  border: black 1px solid;
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy", sans-serif;
+  color: black;
+  font-size: 18px;
+}
+
+/** CONTAINERS **/
+
+.header__container {
+  width: 944px;
+  margin: 0 auto;
+  border: green 1px solid;
+}
+
+/**   HEADER **/
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  /* border: red 2px dotted; */
+  line-height: 22px;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+}
+
+.header__menu li {
+  padding-bottom: 32px;
+}
+
+.active_menu {
+  font-weight: bold;
+  color: #070707;
+}
+
+li {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header__description {
+  display: flex;
+  justify-content: space-between;
+}
